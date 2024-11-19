@@ -1,0 +1,23 @@
+{
+  "name": "playwright-cucumber-ts",
+  "version": "1.0.0",
+  "description": "A Playwright with Cucumber and TypeScript setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --timeout 60000",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "playwright": "^1.39.0"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.1.0",
+    "@playwright/test": "^1.48.2",
+    "chai": "^4.3.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

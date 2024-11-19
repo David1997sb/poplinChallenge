@@ -1,0 +1,1 @@
+{"version":3,"file":"variables.js","sourceRoot":"","sources":["../../utils/variables.ts"],"names":[],"mappings":";;AAAA,MAAM,SAAS,GAAG;IACd,GAAG,EAAE,gCAAgC;IACrC,WAAW,EAAE;QACX,IAAI,EAAE,sBAAsB;QAC5B,QAAQ,EAAE,YAAY;KACvB;CACF,CAAC;AAEF,kBAAe,SAAS,CAAC"}

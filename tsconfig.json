@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",              // Use modern JavaScript features
+      "module": "CommonJS",            // Node.js compatible module system
+      "strict": true,                  // Enable strict type-checking options
+      "esModuleInterop": true,         // Enable interoperability with CommonJS modules
+      "moduleResolution": "node",      // Resolve modules in Node.js style
+      "outDir": "./dist",              // Output directory for compiled JavaScript
+      "sourceMap": true,               // Generate source maps for debugging
+      "types": ["node", "@playwright/test"], // Include Node.js and Playwright types
+      "resolveJsonModule": true        // Allow importing JSON files
+    },
+    "include": [
+      "features/**/*.ts",              // Include feature-related TypeScript files
+      "src/**/*.ts",                   // Include source code files
+      "tests/**/*.ts"                  // Include test files
+    ],
+    "exclude": [
+      "node_modules",                  // Exclude dependencies from compilation
+      "dist"                           // Exclude the output directory
+    ]
+  }
+  
